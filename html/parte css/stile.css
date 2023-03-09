@@ -1,0 +1,74 @@
+.labora{
+    border-radius: 15px;
+    border: 3px solid red;
+    padding: 15px;
+    width: 30%;
+}
+
+.parrafo1{
+    text-align: center;
+    background-color: blanchedalmond;
+   margin-left: 24%;
+   margin-right:14%;
+   font-size: x-large;
+   color: brown;
+   width:60% ;
+}
+.parrafo2{
+    color:rgb(25, 57, 84);
+    font-size: larger;
+}
+.lista1{
+    margin-left: 5%;
+    color: rgb(146, 44, 26);
+}
+ol,li{
+    margin-left: 3%;
+    color: rgb(146, 44, 26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.facebook{
+    font-size: larger;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: blue;
+    cursor: progress ;
+    
+}
+img{
+    width: 10%;
+}
+hr{
+    border: none; height: 2px; 
+    color: #333;
+    background-color: #333; 
+
+}
+.titulo_ultimo{
+    color:blue ;
+}
+marquee{
+    color: red;
+ text-decoration: underline ;
+ font-family: 'Oswald', sans-serif;
+
+ font-size: larger;
+ text-align: center;
+
+}
+.peter{
+    width: 40%;
+  
+}
+body{
+
+    background-color: #b9dfe3;
+    color: #b41111;
+    width: 100%;
+    font-size: 1.2em;
+    box-shadow: 0 0 40px rgb(22, 122, 189);
+    border-radius: 16px;
+}

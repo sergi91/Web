@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type='text/javascript'>
+        var p1;
+        var p2;
+        var p3;
+       
+        function a(id){
+            var p1=document.getElementById(id);
+            p1.style.backgroundColor='blue';
+        }
+        function b(id){
+            var p2=document.getElementById(id);
+            p2.style.backgroundColor='yellow';
+        }
+        function c(id){
+            var p3=document.getElementById(id);
+            p3.style.backgroundColor='green';
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <button id='b1' onmouseover='a(this.id)' onmouseout='b(this.id)'  onclick="c(this.id)">hola</button>
+
+    <ul class="col3">
+        <li>Lo que sea</li>
+        <li>Segunda opcion</li>
+        <li>Tercera cosa</li>
+        <li>Otra cosa, que aparecerá en la primera columna</li>
+        <li>Otra cosa para la segunda columna</li>
+        <li>Y esto para la tercera columna</li>
+        </ul>
+    
+</body>
+</html>

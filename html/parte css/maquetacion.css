@@ -1,0 +1,39 @@
+body {
+    width: 960px;
+
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+#parte1, #parte2 {
+    float: left;
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  
+  }
+
+  #parte1 {
+   width: 260px;
+  }
+  
+  #parte2 {
+    width: 700px;
+  }
+  
+  #parte3 {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #parte3 li {
+    float: left;
+    width: 33%;
+  }
+ 

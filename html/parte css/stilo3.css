@@ -1,0 +1,23 @@
+table, tr, th, td {border:1px solid #d32626; border-collapse:collapse; padding:5px;}
+
+h1#titulo { color: teal; }
+
+strong { color: red; }
+span.destacado { color: orange; }
+
+h2#subtitulo { color: rgb(119, 119, 199); }
+
+span.especial { color: purple; }
+
+a { color: red; }
+a em { color: rgb(8, 8, 102); }
+
+div#adicional p { color: olive; }
+div#adicional span#especial { color: fuchsia; }
+div#adicional a { color: rgb(111, 168, 111); }
+
+caption { color: blue; }
+td { color: green; }
+td strong { color: rgb(220, 186, 122); }
+th { color: red; }
+th.especial { color: orange; }

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    line-height: 26px;
+}
+
+.container {
+   width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top, #sidebar, #bottom, .menuitem {
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#top {
+    background:-webkit-radial-gradient(rgb(0, 81, 255),white,black);
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+#menubar {
+    width: 60px;
+    float: left;
+    background-color: #24bd0d;
+    color:#FFFFFF;
+    color: chocolate;
+    
+}
+
+#main {
+   
+    margin: 0 110px;
+    text-align: center;
+    background:radial-gradient(tomato,white,black);
+    width: 80%;
+}
+
+#sidebar {
+    background-color: #c6e732;
+    color: #ffffff;
+    padding: 10px;
+    width: 140px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+#bottom {
+    border: 1px solid #d5a508;
+    background-color: #bd0d0d;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#top h1, #top p, #menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    margin:auto;
+    padding-left:20px;
+    padding-top:5px;   
+    height:25px;
+    width:220px;
+
+}
+#menu ul{
+    list-style:none; /* Eliminamos los bullets */
+    margin:0px; /* Quitamos los margenes */
+    padding:0px; /* Quitamos el padding */
+}
+#menu ul li {
+    float:left; /* Hacemos que el menu se muestre horizontal */
+    padding-left:10px;
+    padding-right:10px;
+    border-right:1px solid #FFFFFF;
+}
+#menu ul li a{
+    text-decoration:none;
+    color:#19aeae;
+    font-weight:bold;
+}
+#menu ul li a:hover{
+    color:#FFFFFF;
+}
+
+
+.menuitem:hover {
+    background-color: #ffffff;
+}
+
+.menuitem:first-child {
+   background-color:#04AA6D;
+   color: white;
+   font-weight:bold;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #329ce7;
+    color: aliceblue;
+}
+
+#image1{
+    width: 40%;
+    margin-left:35%;
+}
+
+
+
+    </style>
+    <title>Aplicar estilos CSS</title>
+</head>
+<body>
+    <div class="container_wrapper">
+        <div id="top">
+          <h1>Welcome to My Homepage</h1>
+          <p>Use the menu to select different Stylesheets</p>
+        </div>
+        <div class="wrapper">
+         <div id="menubar">
+           <ul id="menulist">
+            <li><button><a href="./diferentes_estilos_css.html">Stylesheet 1</a></button></li>
+            <li><button><a href="./diferentes_estilos_css  parte2.html">Stylesheet 2</a></button></li>
+            <li><button><a href="./diferentes_estilos_css  parte3.html">Stylesheet 3</a></button></li>
+           </ul>
+          </div>
+          <div id="main">
+            <h1>Same Page Different Stylesheets</h1>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:<br>
+            <a href="./diferentes_estilos_css.html">Stylesheet1</a>,,
+            <a href="./diferentes_estilos_css  parte2.html">Stylesheet2</a>,
+            <a href="./diferentes_estilos_css  parte3.html">Stylesheet3</a>,
+            </p>
+             <h2>No Styles</h2>
+            <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:<br><a href="#" onclick="noStyles();return false">No Stylesheet</a>.</p>
+         </div>
+         <div class="images">
+         
+
+         </div>
+          <div id="sidebar">
+            <h3>Side-Bar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>  
+        <div id="image1">
+            <img src="https://i.pinimg.com/originals/51/75/fb/5175fb007f49f1b4383e11425f9e2375.gif" alt="">
+
+        </div>
+        <br><br><br><br><br>
+        <div id="bottom">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </div>
+      </div>
+      
+</body>
+</html>

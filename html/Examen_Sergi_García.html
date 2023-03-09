@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Examen Curso confección y publicación páginas web</title>
+        <link rel="shortcut icon" href="./img/favicon.ico">
+        <style>
+        .cuarentapx{
+            font-size: 40px;
+        }
+        .ex_small{
+            font-size: xx-small;
+        }
+        .small{
+            font-size: small;
+        }
+        .medium{
+            font-size: medium;
+        }
+        .large{
+            font-size: large;
+        }
+        .ochenta{
+            font-size: 80%;
+        }
+        
+        .doscientos{
+            font-size: 200%;
+        }
+        .xx-large{
+            font-size: xx-large;
+        }
+        .romanos{
+            list-style: upper-roman;
+        }
+    table{
+        border: solid 1px rgb(11, 25, 183);
+        margin-left: 40%;
+    }
+    tr,td{
+        border: solid 1px rgb(26, 0, 156);
+        text-align: center;
+    }
+    .estodo{
+        margin-left: 35%;
+         width: 20%;
+    }
+    a{
+     color: rgb(18, 24, 24);
+    }
+    body{
+        background-color: beige;
+        border: solid white;
+    }
+    h1{
+        text-align: center;
+        color:aqua;
+    }
+    </style>
+    </head>
+    <body>
+
+        <!--aqui el menu para enlazar a los ejercicios-->
+        <div id=" principio">
+            <h1>Examen HTML.Sergi Garcia</h1>
+            <ul>
+                <li><a href="#parte1">Lista de definiciones</a></li>
+                <li><a href="#ejer_texto">Ejercicio Tamaño texto</a></li>
+                <li><a href="#subindice">Subindice y Superíndice</a></li>
+                <li><a href="#listas">Ejercicio Listas</a></li>
+                <li><a href="#tabla">Ejercicio Tablas</a></li>
+                <li><a href="#coordenadas">Ejercicio Coordenadas(Imágenes</a></li>
+                <li><a href="#audio">Ejercicio Audio Y Video</a></li>
+                <li><a href="#iframes">Ejercicio IFRAMES</a></li>
+                <li><a href="#enlaces">Ejercicio Enlaces</a></li>
+                <li><a href="#principio">Volver al principio</a></li>
+                <li><a href="#final">Ejercicio enlazar imagen a Url</a></li>
+            </ul>
+
+        </div>
+
+
+        <!--  Ejercicio Datos Personales(Lista de definiciones)-->
+        <div id="parte1">
+            <p>Nombre</p>
+            <dl>
+                <dd>Sergi Garcia Verdu</dd>
+            </dl>
+            <p>DNI</p>
+            <dl>
+                <dd>20235411B</dd>
+            </dl>
+        </div>
+        <br>
+        <hr>
+
+        <!--Ejercicio de texto-->
+        <div id="ejer_texto">
+            <h3> Ejercicio Texto</h3>
+            <p>En este párrafo vamos a utilizar las etiquetas adequadas para
+                poner en <b>negrita </b><del>tachado</del> y tambien <mark>resaltado</mark>I
+                cambiando el color <span style="color: rgb(223, 28, 28);">a este
+                    trozo de texto</span> </p>
+        </div>
+        <br><br><br><br>
+        <hr>
+        <!--Ejercicio Tamaños-->
+        <div class="ejer_tamaño">
+            <h3> Ejercicio de tamaño</h3>
+            <p>Ahora vamos aplicar distintos tamaños de letra</p>
+            <p class="cuarentapx">Esto es un tamaño de 40px</p>
+            <p class="ex_small">Esto es un tamaño xx-small</p>
+            <p class="small">Esto es un tamaño small</p>
+            <p class="medium">Esto es un tamaño medium</p>
+            <p class="large">Esto es un tamaño large</p>
+            <p class="xx-large">Esto es un tamaño xx-Large</p>
+            <p class="ochenta">Esto es un tamaño 80%</p>
+            <p class="doscientos">Esto está a un tamaño 200%</p>
+        </div>
+        <br><hr>
+        <!--Ejercicio de subíndice y superíndice-->
+        <div id="subindice">
+            <h3>Ejercicio de subíndice y superíndice</h3>
+            <p> E=me<sup>2</sup> es la fórmula de la teoria de la relatividad</p>
+            <p>h<sub>2</sub>0 es la fórmula del agua</p>
+        </div>
+        <br>
+        <hr>
+        <!--Ejercicio Listas-->
+
+        <div id="listas">
+            <h3>Ejercicio Listas</h3>
+            <p>Ahora vamos a crear una lista de viñetas como la siguiente</p>
+            <!--Lista desordenada-->
+            <ul>
+                <li>HTML</li>
+                <li>Web</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>Internet</li>
+            </ul>
+            <!--Lista Ordenada-->
+            <p>A continuación haremos una lista ordenada con los mismos
+                elementos de estas tres formas:</p>
+            <h4>Lista ordenada con numeros</h4>
+            <ol>
+                <li>HTML</li>
+                <li>Web</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>Internet</li>
+            </ol>
+            <!--Lista Ordenada-->
+            <h4>Lista en números inversos </h4>
+            <ol reversed>
+                <li>HTML</li>
+                <li>Web</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>Internet</li>
+            </ol>
+
+            <!--Lista Ordenada-->
+            <h4>Lista en números romanos </h4>
+            <ol class="romanos">
+                <li>HTML</li>
+                <li>Web</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>Internet</li>
+            </ol>
+        </div>
+        <br><hr>
+        <!--Ejercicio Tablas-->
+        <div id="tabla">
+            <h3>Ejercicio Tablas</h3>
+            <p>Ahora vamos a crear una tabla como la siguiente</p>
+            <br>
+            <table>
+                <tr>
+                    <td class="encabezzado"><b> ENCABEZADO 1</b> </td>
+                    <td class="encabezzado"><b> ENCABEZADO 2</b></td>
+                    <td class="encabezzado"><b> ENCABEZADO 3</b></td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>I</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Celdas Combinadas</td>
+                </tr>
+
+            </table>
+        </div>
+        <br>
+        <hr>
+        <!--Ejercicio Coordenadas -->
+        <div id="coordenadas">
+            <h3>Ejercicio de mapa de imágenes</h3>
+            <img src="./img/formas.png"  usemap="#formas" border="0">
+            <map name="formas">
+                <area alt="Rectangulo" shape="rect" coords="88,80,234,227"  
+                href="https://dle.rae.es/cuadrado" target="_blank" />
+          <area alt="circulo" shape="circle" coords="524,132,111" 
+                href=" https://dle.rae.es/circulo" target="_blank" />
+          <area alt="Forma irregular" shape="rect" coords="109,421,308,307,547,337,787,215,658,434,372,386,368,386" 
+                href="https://dle.rae.es/poligonal"  target="_blank"/>
+          
+            </map>
+
+        </div>
+        <br>
+        <hr>
+        <!--Ejercicio Audio y Video-->
+        <div id="audio">
+            <h3>Ejercicio multimedia</h3>
+            <p>Ahora vamos a insertar un audio,un video y un video externo</p>
+            <p>En este audio </p>
+            <audio src="./audio/sonido.mp3" controls>No se puede reproducir por
+                tu navegador</audio>
+            <p>Al video le vamos a poner un ancho de 640px y un alto de 480px</p>
+            <video src="./video/video.mp4" width="640" height="480" controls></video>
+            <p>Y por último vamos a insertar un video de youtube</p>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/lkBXlLT_e4I" title="YouTube
+                video player" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+                web-share" allowfullscreen></iframe>
+        </div>
+        <br>
+        <hr>
+        <div>
+
+            <h3>Ejercicio IFRAMES</h3>
+            <p>Aunque acabamos de insertar un iframe,ahora vamos a insertar otro
+                con un mapa a la ubicación de la academia</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.8060581984737!2d-0.1808852852874877!3d38.974096250025774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61e8308e915c23%3A0x77f3e846f9047713!2sAcademia%20Garcia%20Iba%C3%B1ez!5e0!3m2!1ses!2ses!4v1676974534122!5m2!1ses!2ses"
+                width="450" height="350" style="border:0;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <hr>
+        <!--Ejercicio enlaces-->
+        <div id="enlaces">
+            <h3>Ejercicio enlaces</h3>
+            <p>Aunque al principio de esta página no estaba ahora tienes que
+                hacer un indice en una lista ordenada </p>
+
+        </div>
+        <div id="final">
+            <h3>Y esto es todo</h3>
+            <p>Inserta esta imagen que tienes en la carpeta compartida y ya
+                habras finalizado el Examen</p>
+            <a
+                href="https://drive.google.com/drive/folders/10Udwcmcb2tmjF64E4mgC8lUrDiF7ly_E"><img
+                    class="estodo" src="./img/esto_es_todo.gif" alt=""></a>
+        </div>
+    </body>
+</html>
